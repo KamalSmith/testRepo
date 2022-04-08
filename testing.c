@@ -1,3 +1,5 @@
+//Program that swaps two numbers
+
 #include<stdio.h>
 int main() {
   double first, second, temp;
@@ -5,6 +7,7 @@ int main() {
   scanf("%lf", &first);
   printf("Enter second number: ");
   scanf("%lf", &second);
+  printf("Thank you so much!");
 
   // value of first is assigned to temp
   temp = first;
